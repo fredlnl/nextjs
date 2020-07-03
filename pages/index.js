@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to Photeus!</a>
+        Welcome to Photeus!
       </h1>
 
       <p className="description">
