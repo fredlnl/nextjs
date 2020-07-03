@@ -9,7 +9,7 @@ const Home = () => (
 
     <main>
       <h1 className="title">
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Welcome to Photeus!</a>
       </h1>
 
       <p className="description">
@@ -53,7 +53,7 @@ const Home = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by <img src="/vercel.svg" alt="Vercel Logo" />
+        Powered by <img src="/photeus.svg" alt="Photeus Logo" />
       </a>
     </footer>
 
