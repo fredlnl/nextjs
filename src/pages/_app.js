@@ -9,9 +9,7 @@ export default function({ Component, pageProps }) {
         <title>Photeus</title>
       </Head>
       <NavBar></NavBar>
-      <div className="page">
-        <Component {...pageProps} />
-      </div>
+      <Component {...pageProps} />
       <footer className="footer">
         <div className="content has-text-centered">
           Powered by <img src="/photeus.png" alt="Photeus Logo" width="20"/> Photeus
