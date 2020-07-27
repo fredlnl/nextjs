@@ -3,7 +3,7 @@ export default () => (
 <nav className="navbar is-primary" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
     <a className="navbar-item" href="/">
-      <img src="/photeus.png" height="28"/>
+      <div className="logo"></div>
       <h1><b>Photeus</b></h1>
     </a>
 
@@ -14,11 +14,14 @@ export default () => (
     </a>
   </div>
 
-  <div id="navbarBasicExample" className="navbar-menu">
+  <div className="navbar-menu">
     <div className="navbar-end">
 
       <a className="navbar-item" href="/portfolio" >
         Portfolio
+      </a>
+      <a className="navbar-item" href="/howtoreachme" >
+        How to reach me ?
       </a>
 
     </div>

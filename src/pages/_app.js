@@ -12,7 +12,8 @@ export default function({ Component, pageProps }) {
       <Component {...pageProps} />
       <footer className="footer">
         <div className="content has-text-centered">
-          Powered by <img src="/photeus.png" alt="Photeus Logo" width="20"/> Photeus
+          <p>Powered by <img src="/photeus.png" alt="Photeus Logo" width="20"/> Photeus</p>
+          <p>Frédéric Lang Porfolio Site © 2020</p>
         </div>
       </footer>
     </div>

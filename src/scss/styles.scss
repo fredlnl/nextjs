@@ -13,3 +13,16 @@ body {
 .box{
   margin: 20px;
 }
+
+.logo {
+  background: url("/fredericlang.jpg") no-repeat center center;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.tile {
+  text-align: center;
+  margin:auto;
+}
