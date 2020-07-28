@@ -22,7 +22,7 @@ body {
   border-radius: 50%;
 }
 
-.tile {
-  text-align: center;
-  margin:auto;
+.is-parent {
+  display: flex;
+  align-items: center!important;
 }
