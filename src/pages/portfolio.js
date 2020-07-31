@@ -8,7 +8,7 @@ export default () => (
               <h1 className="title">
                 Portfolio
               </h1>
-              <h2 class="subtitle">
+              <h2 className="subtitle">
                 Projects I am working on
               </h2>
             </div>
@@ -19,14 +19,14 @@ export default () => (
         <div className="tile is-ancestor">
           <div className="tile is-child is-4">
           <div className="box">
-            <p className="title">One</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p className="title">Jacar</p>
+            <p>Jacar is a social media platform narrowing tourism. Is allows you to share photos of your trips, and get inspiration from others.</p>
           </div>
           </div>
           <div className="tile is-child is-4">
           <div className="box">
-            <p className="title">Two</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+            <p className="title">Photeus</p>
+            <p>Photeus is a portfolio website. Its displays all projects I am currently working on.</p>
           </div>
           </div>
         </div>
