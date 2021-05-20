@@ -4,7 +4,7 @@ const Backend = () => (
         <div className="box-border flex flex-col items-center px-8 mx-auto leading-6 border-solid max-w-7xl xl:px-16 md:items-stretch md:justify-center">
             <div className="relative pb-10">
                 <p className="w-full max-w-xl mx-0 mx-auto mt-4 mb-0 font-sans text-sm font-medium leading-relaxed text-center text-gray-400 border-0 border-gray-200 lg:text-lg md:text-base">
-                    Which properties a good backend should have ? Many factors come to mind when we consider how a good backend should be. Here is a list of some points that should not be neglicted.
+                    Let's review some properties of what makes a great frontend.
                 </p>
             </div>
 

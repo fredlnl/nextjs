@@ -17,7 +17,7 @@ const Tab = ({text, openTab, setOpenTab, item, color} : TabProps)  => (
         className={
             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
             (openTab === item
-            ? "text-white bg-" + color + "-600"
+            ? "text-grey-400 bg-" + color + "-600 underline"
             : "text-" + color + "-600 bg-white")
         }
         onClick={(e) => {
