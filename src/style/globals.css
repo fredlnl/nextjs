@@ -1,0 +1,15 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

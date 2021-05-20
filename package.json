@@ -9,15 +9,21 @@
   },
   "dependencies": {
     "bulma": "^0.9.0",
-    "next": "^9.3.3",
-    "react": "^16.13.0",
+    "next": "^10.2.0",
+    "react": "^17.0.2",
     "react-dom": "^16.13.0",
-    "react-social-plugins": "^2.0.0"
+    "react-horizontal-scrolling-menu": "^0.7.10",
+    "react-social-plugins": "^2.0.0",
+    "react-tabs": "^3.2.2"
   },
   "devDependencies": {
     "@types/node": "^14.11.1",
     "@types/react": "^16.9.49",
+    "@types/react-tabs": "^2.3.2",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
     "sass": "^1.26.11",
+    "tailwindcss": "^2.1.2",
     "typescript": "^4.0.3"
   }
 }
