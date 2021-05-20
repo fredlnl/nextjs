@@ -13,7 +13,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-arrows-vertical" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chart-arrows-vertical" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M18 21v-14" />
                             <path d="M9 15l3 -3l3 3" />
@@ -36,7 +36,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-lock" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-lock" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <rect x="5" y="11" width="14" height="10" rx="2" />
                             <circle cx="12" cy="16" r="1" />
@@ -56,7 +56,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database-import" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-database-import" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <ellipse cx="12" cy="6" rx="8" ry="3" />
                             <path d="M4 6v8m5.009 .783c.924 .14 1.933 .217 2.991 .217c4.418 0 8 -1.343 8 -3v-6" />
