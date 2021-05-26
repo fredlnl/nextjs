@@ -17,7 +17,7 @@ const Tab = ({text, openTab, setOpenTab, item, color} : TabProps)  => (
         className={
             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
             (openTab === item
-            ? "text-grey-400 bg-" + color + "-600 underline"
+            ? "text-white bg-" + color + "-600 underline"
             : "text-" + color + "-600 bg-white")
         }
         onClick={(e) => {
@@ -88,7 +88,7 @@ const Tabs = ({ color }) => {
 };
 
 const Technos = () => (
-  <div className="flex flex-row">
+  <div className="flex flex-row" id="technos">
     <div className=" -ml-56 opacity-25 w-96 h-96">
         <svg className="text-pink-500 opacity-50 fill-current w-88 h-88" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <path d="M25.5,-24.7C35.8,-15.2,48.9,-7.6,50.6,1.7C52.3,11,42.6,22,32.3,31.2C22,40.4,11,47.8,-1.9,49.8C-14.9,51.7,-29.7,48.1,-41.1,38.9C-52.5,29.7,-60.5,14.9,-60.3,0.3C-60,-14.3,-51.5,-28.6,-40,-38.1C-28.6,-47.6,-14.3,-52.3,-3.4,-48.9C7.6,-45.5,15.2,-34.2,25.5,-24.7Z" transform="translate(100 100)"></path>

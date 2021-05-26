@@ -3,7 +3,7 @@ const Backend = () => (
     <section id="backend" className="box-border relative w-full leading-6 text-gray-700 bg-white border-0 border-gray-200 border-solid">
         <div className="box-border flex flex-col items-center px-8 mx-auto leading-6 border-solid max-w-7xl xl:px-16 md:items-stretch md:justify-center">
             <div className="relative pb-10">
-                <p className="w-full max-w-xl mx-0 mx-auto mt-4 mb-0 font-sans text-sm font-medium leading-relaxed text-center text-gray-400 border-0 border-gray-200 lg:text-lg md:text-base">
+                <p className="w-full max-w-xl mx-0 mt-4 mb-0 font-sans text-sm font-medium leading-relaxed text-center text-gray-400 border-0 border-gray-200 lg:text-lg md:text-base">
                     Let's review some properties of what makes a great frontend.
                 </p>
             </div>
@@ -13,7 +13,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user-check" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-user-check" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1" stroke="#597e8d" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <circle cx="9" cy="7" r="4" />
                             <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
@@ -32,7 +32,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-3d-cube-sphere" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-3d-cube-sphere" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1" stroke="#597e8d" fill="none" strokeLinecap="round" strokeLinejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <path d="M6 17.6l-2 -1.1v-2.5" />
   <path d="M4 10v-2.5l2 -1.1" />
@@ -61,7 +61,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-android" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-android" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1" stroke="#597e8d" fill="none" strokeLinecap="round" strokeLinejoin="round">
   <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
   <line x1="4" y1="10" x2="4" y2="16" />
   <line x1="20" y1="10" x2="20" y2="16" />
@@ -84,7 +84,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-arrow-narrow-right" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1" stroke="#597e8d" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <line x1="5" y1="12" x2="19" y2="12" />
                             <line x1="15" y1="16" x2="19" y2="12" />
@@ -103,7 +103,7 @@ const Backend = () => (
                 <div className="col-span-3 font-sans text-gray-700 bg-gray-50 rounded-3xl">
                     <div className="box-border flex flex-col items-start h-full px-2 py-8 mx-4 leading-6 text-center border-solid sm:flex-row sm:items-start sm:text-left">
                         <div className="flex-shrink-0 p-3 font-sans text-gray-700 border border-gray-200 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-telegram" width="32" height="32" viewBox="0 0 24 24" stroke-width="1" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-telegram" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1" stroke="#597e8d" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
                             </svg>
