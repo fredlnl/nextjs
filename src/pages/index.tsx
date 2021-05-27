@@ -2,6 +2,7 @@ import Technos from '../components/Technos/Technos';
 import Content1 from '../components/content1';
 import Hero1 from '../components/Hero1'
 import Hero2 from '../components/Hero2'
+import Hero3 from '../components/Hero3'
 import Technologies from '../components/technologies';
 import CallToAction from '../components/CallToAction';
 
@@ -13,8 +14,9 @@ const Index = () => (
     <div id="technologies" >
     <Technologies />
     </div>
-    <Hero2 />
     <Technos />
+    <Hero2 />
+{/*     <Hero3 /> */}
     <CallToAction />
   </>
 );

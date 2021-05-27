@@ -16,7 +16,7 @@ const Hero2 = () => (
                     <div className="relative flex items-center max-w-md leading-6 text-center lg:mx-0">
 {/*                         <input type="text" placeholder="Your E-mail Address" className="w-full py-4 pr-0 m-0 overflow-visible font-medium duration-300 border-2 border-gray-200 rounded-full outline-none sm:py-5 sm:pr-48 cursor-text pl-7 focus:outline-none focus-within:border-purple-700 hover:border-gray-400"/>
  */}
-                            <button className="h-12 px-8 mr-3 text-white bg-purple-700 rounded-full"><a href="/#technos">Continue →</a></button>
+                            <button className="h-12 px-8 mr-3 text-white bg-purple-700 rounded-full"><a href="/#calltoaction">Continue →</a></button>
                     </div>
                     {/* <div className="mt-12 leading-6 text-left border-solid lg:mt-12">
                         <p className="m-0 text-sm font-bold tracking-wider text-gray-400 uppercase lg:text-xs">

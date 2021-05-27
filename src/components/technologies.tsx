@@ -4,13 +4,13 @@ const Technologies = () => (
         <div className="flex flex-col w-full md:flex-row">
 
             <div className="flex justify-between">
-            <h1 className="relative flex flex-col text-5xl font-extrabold text-left text-black mt-4 mx-auto md:hidden">
-                    Technologies
+                <h1 className="relative flex flex-col text-5xl font-extrabold text-left text-black mt-4 mx-auto md:hidden">
+                    How to build great software ?
                 </h1>
                 <h1 className="relative flex-col text-5xl font-extrabold text-left text-black mt-4 md:mt-8 mx-auto hidden md:flex ">
-                    Tech-
-                    <span className="ml-16">Nolo-</span>
-                    <span className="ml-32  ">Gies</span>
+                    How to build
+                    <span className="text-blue-500">great</span>
+                    <span>software ?</span>
                 </h1>
             </div>
             <div className="relative top-0 right-0 h-64 mt-12 md:-mt-16 md:absolute md:h-96 mx-auto">

@@ -11,26 +11,24 @@ type TabProps = {
     color : string
 }
 
-const Tab = ({text, openTab, setOpenTab, item, color} : TabProps)  => (
-    <li className="-mb-px mr-2 last:mr-0 flex-auto text-center">
-        <a
+const Tab = ({text, openTab, setOpenTab, item} : TabProps)  => (
+        <button
         className={
             "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
             (openTab === item
-            ? "text-white bg-blue-600 underline"
-            : "text-blue-600 bg-white")
+            ? "text-white bg-blue-600 underline hover:bg-blue-700"
+            : "text-blue-600 bg-white hover:bg-gray-50")
         }
         onClick={(e) => {
             e.preventDefault();
             setOpenTab(item);
           }}
         data-toggle="tab"
-        href={`#link${item}`}
+/*         href={`#link${item}`} */
         role="tablist"
         >
         {text}
-        </a>
-    </li>
+        </button>
 )
 
 const Tabs = ({ color }) => {
@@ -38,51 +36,46 @@ const Tabs = ({ color }) => {
 
   return (
     <>
-      <div className="flex flex-wrap">
-        <div className="w-full">
-          <ul
-            className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row"
-            role="tablist"
-          >
-            <Tab
-                color={color}
-                text="Backend"
-                openTab={openTab}
-                setOpenTab={setOpenTab}
-                item={1}
-                />
-            <Tab
-                color={color}
-                text="Frontend"
-                openTab={openTab}
-                setOpenTab={setOpenTab}
-                item={2}
-                />
-            <Tab
-                color={color}
-                text="Database"
-                openTab={openTab}
-                setOpenTab={setOpenTab}
-                item={3}
-                />
-          </ul>
-          <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto">
-              <div className="tab-content tab-space">
-                <div className={openTab === 1 ? "block" : "hidden"} id="link1">
-                  <Backend />
-                </div>
-                <div className={openTab === 2 ? "block" : "hidden"} id="link2">
-                  <Frontend />
-                </div>
-                <div className={openTab === 3 ? "block" : "hidden"} id="link3">
-                  <Database />
-                </div>
-              </div>
+        <div className="flex flex-col">
+            <div className="w-full flex">
+                <Tab
+                    color={color}
+                    text="Backend"
+                    openTab={openTab}
+                    setOpenTab={setOpenTab}
+                    item={1}
+                    />
+                <Tab
+                    color={color}
+                    text="Frontend"
+                    openTab={openTab}
+                    setOpenTab={setOpenTab}
+                    item={2}
+                    />
+                <Tab
+                    color={color}
+                    text="Database"
+                    openTab={openTab}
+                    setOpenTab={setOpenTab}
+                    item={3}
+                    />
             </div>
-          </div>
+            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
+                <div className="px-4 py-5 flex-auto">
+                <div className="tab-content tab-space">
+                    <div className={openTab === 1 ? "block" : "hidden"} id="link1">
+                    <Backend />
+                    </div>
+                    <div className={openTab === 2 ? "block" : "hidden"} id="link2">
+                    <Frontend />
+                    </div>
+                    <div className={openTab === 3 ? "block" : "hidden"} id="link3">
+                    <Database />
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
-      </div>
     </>
   );
 };
