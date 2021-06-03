@@ -11,7 +11,7 @@ const Content1 = () => (
             </p>
 
             <p className="col-span-6 text-base font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl">
-            I like to work on tools that make people's lives easier, make communicant systems to homogeinize APIs and data. Automating a process that was intially manual makes my day.
+            I like to work on orchatrasted system, that can themselves evolve in account of their environment. Automated pipelines and plurals environment makes me understand better the flow of an application.
             </p>
         </div>
     </div>
